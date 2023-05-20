@@ -12,7 +12,7 @@ public class NetworkController {
     
     public init() {}
     
-    func send<Request: APIRequest>(request: Request) async throws -> Request.Response {
+    public func send<Request: APIRequest>(request: Request) async throws -> Request.Response {
         guard let urlRequest = request.urlRequest else {
             throw APIRequestError.invalidApiURL
         }
