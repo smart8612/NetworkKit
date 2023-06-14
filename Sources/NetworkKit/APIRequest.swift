@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// A type that declares an api request form that a network controller can perform.
+/// A type that declares an api request form which can be processed by a network controller's operation.
 public protocol APIRequest {
     
     /// A type that represent a response form of api request.
