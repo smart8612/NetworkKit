@@ -10,6 +10,9 @@ import Foundation
 
 public extension URLRequest {
     
+    /// Create url request with containing preconfigured json post header.
+    /// - Parameter url: A url that represent host's domain.
+    /// - Returns: A url request that contains http header preconfigured with json post.
     static func initWithJSONPost(url: URL?) -> URLRequest? {
         guard let url = url else {
             return nil
