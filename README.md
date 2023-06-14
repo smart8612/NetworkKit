@@ -66,6 +66,11 @@ let package = Package(
 )
 ```
 
+## API Documentation
+Xcode의 DocC 컴파일러를 활용해 API 도큐멘트를 빌드할 수 있습니다.
+Build Documentaion 기능을 통해 API의 세부 설명을 확인해보세요!
+* 단축키: <kbd>control</kbd> + <kbd>shift</kbd> + <kbd>command</kbd> + <kbd>d</kbd>
+
 ## 🤼 Sample Projects
 NetworkKit을 통해 구축된 샘플 프로젝트를 다음의 Repository에서 확인하실 수 있습니다.
 * [OrderClient](https://github.com/smart8612/OrderClient)
