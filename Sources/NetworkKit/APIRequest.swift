@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 /// A type that declares an api request form that a network controller can perform.
 public protocol APIRequest {
     
@@ -21,7 +20,6 @@ public protocol APIRequest {
     /// - Parameter data: The data that represent remote server's response.
     /// - Returns: An instance decoded to ``Response`` type.
     func decodeResponse(data: Data) throws -> Response
-    
     
     /// Verify response whether an exception occurred.
     /// - Parameter response: The response information that represent remote server's returned.
