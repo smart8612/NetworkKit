@@ -66,7 +66,7 @@ let package = Package(
 )
 ```
 
-## API Documentation
+## 📖 API Documentation
 Xcode의 DocC 컴파일러를 활용해 API 도큐멘트를 빌드할 수 있습니다.
 Build Documentaion 기능을 통해 API의 세부 설명을 확인해보세요!
 * 단축키: <kbd>control</kbd> + <kbd>shift</kbd> + <kbd>command</kbd> + <kbd>d</kbd>
