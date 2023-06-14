@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public class NetworkController {
     
     public init() {}

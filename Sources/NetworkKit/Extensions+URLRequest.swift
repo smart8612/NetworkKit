@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public extension URLRequest {
     
     /// Create url request with containing preconfigured json post header.
