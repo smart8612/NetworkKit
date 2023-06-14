@@ -7,10 +7,15 @@
 
 import Foundation
 
+/// An object that manages a network operation.
 public class NetworkController {
     
+    /// Creates a network controller.
     public init() {}
     
+    /// Performs a send operation with request information.
+    /// - Parameter request: Request instance which conforms ``APIRequest`` protocol.
+    /// - Returns: Response instance which decoded to ``APIRequest``'s Response type.
     public func send<Request: APIRequest>(request: Request) async throws -> Request.Response {
         guard let urlRequest = request.urlRequest else {
             throw APIRequestError.invalidApiURL
