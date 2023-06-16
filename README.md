@@ -1,6 +1,6 @@
 # 📡 NetworkKit
 
-## Overview
+## ⭐️ Overview
 * 단순한 네트워크 추상화 계층을 제공합니다.
 * API 명세를 하나의 구조체 타입으로 관리할 수 있습니다.
 * 사전에 정의해둔 API 명세 타입을 통해 손쉬운 네트워크 요청이 가능합니다.
@@ -8,6 +8,10 @@
 ## 📰 Related Articles
 NetworkKit이 개발 과정 및 의도는 다음의 블로그 게시물에서 확인하실 수 있습니다.
 * [네트워크 코드 모델링](https://singularis7.tistory.com/93)
+
+## 🖼️ UML Diagram
+| ![networkkit](https://github.com/smart8612/NetworkKit/assets/25794814/84a383a1-f5ba-4c03-b405-a2220a656b00) |
+| ------------------------------------------------------------ |
 
 ## 🛠️ Used Technology
 ### 도구
@@ -70,6 +74,8 @@ let package = Package(
 Xcode의 DocC 컴파일러를 활용해 API 도큐멘트를 빌드할 수 있습니다.
 Build Documentaion 기능을 통해 API의 세부 설명을 확인해보세요!
 * 단축키: <kbd>control</kbd> + <kbd>shift</kbd> + <kbd>command</kbd> + <kbd>d</kbd>
+다음의 GitHub Pages 를 통해서 온라인 도큐멘트를 열람하실 수 있습니다.
+* [NetworkKit Official documentation](https://smart8612.github.io/NetworkKit/documentation/networkkit/networkcontroller)
 
 ## 🤼 Sample Projects
 NetworkKit을 통해 구축된 샘플 프로젝트를 다음의 Repository에서 확인하실 수 있습니다.
