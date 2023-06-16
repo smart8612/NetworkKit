@@ -8,3 +8,11 @@ final class NetworkKitTests: XCTestCase {
         // results.
     }
 }
+
+
+swift package --allow-writing-to-directory ./docs \
+    generate-documentation --target NetworkKit \
+    --disable-indexing \
+    --transform-for-static-hosting \
+    --hosting-base-path NetworkKit \
+                        --output-path ./docs
